@@ -1,0 +1,12 @@
+#include "bturret.odf"
+
+weapon2 = "gborgbor"
+weaponHardpoints2 = "hp01" "hp02" "hp03" "hp04"
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 1000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 10
+
+aiName = "CraftProcess"

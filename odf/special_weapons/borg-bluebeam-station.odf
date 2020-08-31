@@ -1,0 +1,69 @@
+//Name of the ODF file for the ordinance for this weapon
+ordName = "borg-bluebeam-station-ord"
+
+//Display name for this weapon
+wpnName = "Auto-Assimilator"
+
+// Time Delay between shots
+shotDelay = 1.0
+
+specialEnergyCost = null
+
+// Range within which the weapon will fire.
+range = 800.0
+
+// This is a special weapon
+special = 1
+
+//Sound which is played when the weapon fires
+// Turned off because otherwise, it never stops and gets very annoying.
+//fireSound = "swbauto.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "toggleweapon"
+
+// We need a target
+needTarget = 1
+
+// don't check to see if is valid as target
+ignoreValidAsTarget = 1
+
+validTargets = 1
+	"8472_active" = 0
+	"8472_battle" = 0
+	"8472_behemoth" = 0
+	"8472_collector" = 0
+	"8472_cruise1" = 0
+	"8472_cruise2" = 0
+	"8472_defender" = 0
+	"8472_destroy" = 0
+	"8472_frigate" = 0
+	"8472_heromothership" = 0
+	"8472_mothership" = 0
+	"8472_passive" = 0
+	"8472_scout" = 0
+	"8472_transmuter" = 0
+	"8472_AdvancedResearch" = 0
+	"8472_BasicResearch" = 0
+	"8472_FluidicGate" = 0
+	"8472_Mine" = 0
+	"8472_officer" = 0
+	"8472_PodAdvanced0" = 0
+	"8472_PodAdvanced1" = 0
+	"8472_PodAdvanced2" = 0
+	"8472_PodAdvanced3" = 0
+	"8472_PodBasic0" = 0
+	"8472_PodBasic1" = 0
+	"8472_PodBasic2" = 0
+	"8472_PodBasic3" = 0
+	"8472_PodBasic4" = 0
+	"8472_PodShipResearch1" = 0
+	"8472_PodShipResearch2" = 0
+	"8472_PodShipResearch21" = 0
+	"8472_PodShipResearch22" = 0
+	"8472_PodShipResearch23" = 0
+	"8472_PodShipResearch24" = 0
+	"8472_PodShipResearch3" = 0
+	"8472_PodShipResearch4" = 0
+	"8472_Sentinel" = 0
+	"8472_ShipUpgradeResearch" = 0

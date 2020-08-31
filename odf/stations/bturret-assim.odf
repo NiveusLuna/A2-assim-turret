@@ -1,0 +1,39 @@
+#include "bturret.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Assimilation Turret"
+
+//tooltips
+tooltip = "Assimilation Turret"
+verboseTooltip = "A turret that assimilates the crew of nearby vessels."
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// I'm just a Borg Disruptor Turret, nothing to see here. Nothing at all.
+baseName = "bturret"
+
+// Auto-Assimilator - Station variant
+weapon1 = "borg-bluebeam-station"
+weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04"
+
+// no other weapons
+weapon2 = lousyape
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 1000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 10
+
+//**********************************************************************
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+//These values are the hitpoint values of the systems
+//If the value is set to zero the ship does not have that system
+weaponsHitPoints = 333
+//**********************************************************************
